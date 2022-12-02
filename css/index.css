@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fullbody{
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.view-1::before{
+    background-image: url(../img/view_1_main_background.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    z-index: -1;
+}
+.navbar {
+    width: 98%;
+    position: absolute;
+    /* background-color: green; */
+    min-height: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    top: 1rem;
+}
+.nav-item {
+    padding: 0.5rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white;
+}
+.sign-up {
+    background-color: white;
+    color: black;
+
+}
+.view-1{
+    min-height: 100vh;
+    position: relative;
+    /* background-image: url(../img/view_1_main_background.webp); */
+    background-repeat: no-repeat;
+}
+.introduction {
+    position: relative;
+    min-height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.logo-1 {
+    max-width: 14rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    position: relative;
+    /* color: white; */
+}
+.door-logo-1 {
+    position: relative;
+    top: 0.2rem;
+    height: fit-content;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+}
+.caption {
+    font-size: 4rem;
+    font-weight: 650;
+    max-width: 55%;
+    color: white;
+    margin: auto;
+    padding-top: 7rem;
+}
+.delivery {
+    width: fit-content;
+    margin: auto;
+}
+.search {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.search:active{
+    border: 3px blue solid;
+}
+.search-l2 {
+    display: none;
+}
+.search input{
+    width: 20rem;
+    height: 100%;
+    padding: 0.5rem .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+.select {
+    list-style-type: none;
+    margin-top: 2rem;
+    max-width: 100%;   
+    background-color: white;
+    border-radius: 5px;
+}
+.select a{
+    text-decoration: none;
+    color: black;
+    padding: 0rem 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.select li:last-child a{
+    border-top: 1px black solid;
+}
+
+.select a:hover{
+    background-color: rgb(200, 193, 193);
+}
+.lil-dark {
+    font-weight: 700;
+}
+
+.view-2 {
+    min-height: 90vh;
+}
+
+.list-grid {
+    padding-top: 2rem;
+    list-style: none;
+    word-wrap: wrap;
+    max-width: 35%;
+    margin: auto;
+    display: grid;
+}
+.list-grid li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 1rem;
+    list-style: none;
+}
+
+.list-grid p{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+.list-grid a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.2rem;
+}
+.view-3 {
+    display: grid;
+    grid-template-columns: 33% 1fr;
+}
+.view-3-sec-1 img{
+    width: 100%;
+}
